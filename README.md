@@ -1,2 +1,4 @@
 # Face_Recognition_Attendance_System
-The Facial Recognition Attendance System is a Python-based project designed to automate the process of attendance tracking using facial recognition technology.
+The Facial Recognition Attendance System is a Python-based project designed to automate the process of attendance tracking using facial recognition technology. The system comprises three main components: face detection and capture, face recognition, and attendance logging. Leveraging OpenCV, dlib, face_recognition, and Excel manipulation libraries, this system offers a streamlined solution for attendance management
+
+The face detection and capture component utilize OpenCV to detect faces in input images or video streams, capturing them for further processing. Following this, the face recognition module, powered by dlib and face_recognition libraries, identifies faces from the captured images, enabling accurate recognition of individuals. Finally, attendance logging is facilitated by storing attendance data in an Excel spreadsheet using xlwt, xlrd, and xlutils libraries, ensuring organized and accessible records.
